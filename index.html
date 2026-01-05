@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Física Para Todos | Portal Científico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="aspas.png">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="quantum-loader">
+            <div class="particle" style="--i:1;"></div>
+            <div class="particle" style="--i:2;"></div>
+            <div class="particle" style="--i:3;"></div>
+            <div class="particle" style="--i:4;"></div>
+            <div class="particle" style="--i:5;"></div>
+            <div class="particle" style="--i:6;"></div>
+            <div class="particle" style="--i:7;"></div>
+            <div class="particle" style="--i:8;"></div>
+            <div class="particle" style="--i:9;"></div>
+            <div class="particle" style="--i:10;"></div>
+            <div class="loading-text">INICIALIZANDO SISTEMA...</div>
+        </div>
+    </div>
+
+    <!-- Cosmic Background -->
+    <div class="cosmic-bg">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+        <div class="comet"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="title-glitch">FÍSICA PARA TODOS</h1>
+                <p class="subtitle">Desvendando os mistérios do universo</p>
+                
+                <div class="quantum-tunnel">
+                    <div class="tunnel-entry">
+                        <div class="event-horizon"></div>
+                        <div class="singularity"></div>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <button class="btn-holographic" id="exploreBtn">
+                        <span class="btn-text">EXPLORAR CONTEÚDO</span>
+                        <span class="btn-hover"></span>
+                    </button>
+                    <button class="btn-holographic" id="videosBtn">
+                        <span class="btn-text">ASSISTIR VÍDEOS</span>
+                        <span class="btn-hover"></span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <span class="text">ROLAR</span>
+            </div>
+        </section>
+
+        <!-- Content Sections -->
+        <section class="content-section" id="materials">
+            <div class="section-header">
+                <h2 class="section-title">MATERIAIS DIDÁTICOS</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="pdf-grid">
+                <!-- PDF items will be loaded dynamically via JS -->
+            </div>
+        </section>
+
+        <section class="content-section" id="videos">
+            <div class="section-header">
+                <h2 class="section-title">CANAIS DE VÍDEO</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="video-player-container">
+                <div class="video-frame">
+                    <iframe id="mainVideo" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+                <div class="video-playlist">
+                    <!-- Video items will be loaded dynamically via JS -->
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="about">
+            <div class="section-header">
+                <h2 class="section-title">SOBRE O PROJETO</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="hologram-card">
+                    <div class="holo-content">
+                        <h3>MISSÃO</h3>
+                        <p>Democratizar o acesso ao conhecimento científico, tornando a física acessível e fascinante para todos os públicos.</p>
+                    </div>
+                    <div class="holo-grid"></div>
+                </div>
+                
+                <div class="hologram-card">
+                    <div class="holo-content">
+                        <h3>VISÃO</h3>
+                        <p>Criar uma comunidade engajada no aprendizado e na discussão dos fenômenos que regem nosso universo.</p>
+                    </div>
+                    <div class="holo-grid"></div>
+                </div>
+                
+                <div class="hologram-card">
+                    <div class="holo-content">
+                        <h3>VALORES</h3>
+                        <p>Rigor científico, criatividade didática, acessibilidade e paixão pelo conhecimento.</p>
+                    </div>
+                    <div class="holo-grid"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="sci-fi-footer">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <h4>NAVEGAÇÃO</h4>
+                <ul>
+                    <li><a href="#materials">Materiais Didáticos</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>CONECTE-SE</h4>
+                <div class="social-links">
+                    <a href="https://www.youtube.com/@fisica_para_todos" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/fisicaparatodosoficial" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/AsteAste" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h4>NEWSLETTER</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <button type="submit" class="btn-submit">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2026 Física Para Todos. Todos os direitos reservados.</p>
+            <div class="tech-lines"></div>
+        </div>
+    </footer>
+
+    <!-- Particle Network -->
+    <canvas id="particleNetwork"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
